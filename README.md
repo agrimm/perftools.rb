@@ -119,6 +119,9 @@ The sampling interval of the profiler can be adjusted to collect more
     gem build perftools.rb.gemspec
     gem install perftools.rb
 
+  On Ruby 1.9.x , you need to install ruby_core_source before installing perftools.rb:
+
+    sudo gem install ruby_core_source
 
   You'll also need graphviz to generate call graphs using dot:
 
